@@ -1,0 +1,75 @@
+/**
+1) elemnts - <p>
+p {}
+
+2) class <p class = "purple">
+.purple {}
+
+3) IDs <p id="neverever">
+#neverever {}
+
+4) attributes <p purple="true">
+[purple] {}
+
+**/
+/* Calendar */
+.title{
+	color: black;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 16pt;
+	margin-left: 20px;
+}
+
+
+.classy{
+	border: 1px solid black;
+	background-color: #FFF;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+th {
+	color: black;
+	font-family: Helvetica;
+}
+
+td{
+	font-family: Helvetica;
+	font-size: 8pt;
+	position:relative;
+	width: 100px;
+	height: 100px;
+}
+
+td:nth-child(even){
+	background-color: rgba(0,0,0,0.1);
+}
+
+td:hover {
+	background-color: rgba(100,100,100, 0.5);
+}
+
+.date {
+	position:absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.event {
+	font-family: Helvetica;
+	font-size: 8pt;
+	background-color: rgba(190, 100, 100, 0.2);
+	display: block;
+}
+
+/*Form*/
+
+form {
+	margin: 15px auto;
+	display: block;
+	padding: 15px;
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
