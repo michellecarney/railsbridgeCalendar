@@ -56,6 +56,11 @@ $(document).ready(function () {
        var day = $('[name="eventDay"]').val(); 
        
        insertEvent(name, day);
+       
+       $('#eventName').val('');
+       $('[name="eventDay"]').val(''); 
+       
+       $('#myModal').modal('hide');
     });
     
     
@@ -67,12 +72,14 @@ $(document).ready(function () {
     
 /*Click the date and populate the new event field*/    
     $('td').on('click', function(event){
+
         console.log(event);
         
         var day = $(event.target).children('.date').text();
         
         console.log(day);
         $('[name="eventDay"]').val(day);
+        $('#myModal').modal('show');
     });
     
     /*

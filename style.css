@@ -16,7 +16,6 @@ p {}
 .title{
 	color: black;
 	text-align: left;
-	font-family: Helvetica;
 	font-size: 16pt;
 	margin-left: 20px;
 }
@@ -35,7 +34,6 @@ th {
 }
 
 td{
-	font-family: Helvetica;
 	font-size: 8pt;
 	position:relative;
 	width: 100px;
@@ -57,7 +55,6 @@ td:hover {
 }
 
 .event {
-	font-family: Helvetica;
 	font-size: 8pt;
 	background-color: rgba(190, 100, 100, 0.2);
 	display: block;
@@ -69,7 +66,6 @@ form {
 	margin: 15px auto;
 	display: block;
 	padding: 15px;
-	border: 1px solid black;
 	margin-left: 20px;
 	margin-right: 20px;
 }
